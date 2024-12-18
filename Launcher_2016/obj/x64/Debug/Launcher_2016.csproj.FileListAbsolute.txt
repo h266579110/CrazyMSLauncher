@@ -1,0 +1,17 @@
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\MainWindow.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Tools\Style.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Window1.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\App.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Window1.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\App.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016.Properties.Resources.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016.csproj.GenerateResource.Cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\x64\Debug\Launcher_2016.exe.config
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\x64\Debug\Launcher_2016.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\x64\Debug\Launcher_2016.pdb
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\x64\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016_MarkupCompile.cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016.g.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x64\Debug\Launcher_2016.pdb

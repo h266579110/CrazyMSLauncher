@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<downloads>
+  <file>
+    <file_link>updates/files/Base.wz</file_link>
+    <file_size>6351</file_size>
+    <file_name>Base.wz</file_name>
+    <file_hash>7d3c6a9f9c63af21ed983ce149158546</file_hash>
+  </file>
+  <file>
+    <file_link>updates/files/Etc.wz</file_link>
+    <file_size>282332</file_size>
+    <file_name>Etc.wz</file_name>
+    <file_hash>e908116d7f4156b9e02e3bbe064ec135</file_hash>
+  </file>
+  <file>
+    <file_link>updates/files/ijl15.dll</file_link>
+    <file_size>162304</file_size>
+    <file_name>ijl15.dll</file_name>
+    <file_hash>1707b8023153ae26002728d59b220401</file_hash>
+  </file>
+  <file>
+    <file_link>updates/files/Item.wz</file_link>
+    <file_size>8532281</file_size>
+    <file_name>Item.wz</file_name>
+    <file_hash>37e4d1e608738772e92ab87731b965c0</file_hash>
+  </file>
+  <file>
+    <file_link>updates/files/List.wz</file_link>
+    <file_size>348</file_size>
+    <file_name>List.wz</file_name>
+    <file_hash>09b5b904dd60ad68db28d755f134b96c</file_hash>
+  </file>
+</downloads>

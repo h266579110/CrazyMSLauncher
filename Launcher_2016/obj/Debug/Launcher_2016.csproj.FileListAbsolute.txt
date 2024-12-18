@@ -1,0 +1,30 @@
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\MainWindow.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Tools\Style.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Window1.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\App.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\MainWindow.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Window1.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\App.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.Properties.Resources.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.csproj.GenerateResource.Cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\Debug\Launcher_2016.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\Debug\Launcher_2016.pdb
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016_MarkupCompile.cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.g.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.pdb
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.csprojResolveAssemblyReference.cache
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\MainWindow.baml
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Tools\Style.baml
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\App.baml
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\MainWindow.g.cs
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\App.g.cs
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016_MarkupCompile.cache
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.g.resources
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.Properties.Resources.resources
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.csproj.GenerateResource.cache
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.csproj.CoreCompileInputs.cache
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.exe
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\obj\Debug\Launcher_2016.pdb
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\bin\Debug\Launcher_2016.exe
+C:\Users\informatica\Desktop\MapleStory Docs\Launcher\Launcher_2016\Launcher_2016\bin\Debug\Launcher_2016.pdb

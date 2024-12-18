@@ -1,0 +1,16 @@
+c:\users\usuário\documents\visual studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\MainWindow.baml
+c:\users\usuário\documents\visual studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\MainWindow.g.cs
+c:\users\usuário\documents\visual studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\App.g.cs
+c:\users\usuário\documents\visual studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\Launcher_2016.csproj.GenerateResource.Cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\Window1.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\Window1.g.cs
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\Tools\Style.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\App.baml
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\Debug\LeaderMS Launcher.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\Debug\LeaderMS Launcher.pdb
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\LeaderMS Launcher_MarkupCompile.cache
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\LeaderMS Launcher.g.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\LeaderMS Launcher.exe
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\LeaderMS Launcher.pdb
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\obj\x86\Debug\Launcher_2016.Properties.Resources.resources
+C:\Users\Usuário\Documents\Visual Studio 2010\Projects\Launcher_2016\Launcher_2016\bin\Debug\Launcher_2016.exe.config

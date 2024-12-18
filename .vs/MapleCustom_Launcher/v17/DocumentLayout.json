@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97A9BB75-F4D3-4332-BD95-80349CAA76E6}|Launcher_2016\\MapleCustom_Launcher.csproj|c:\\users\\informatica\\desktop\\maplestory docs\\launcher\\launcher_2016\\launcher_2016\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97A9BB75-F4D3-4332-BD95-80349CAA76E6}|Launcher_2016\\MapleCustom_Launcher.csproj|solutionrelative:launcher_2016\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97A9BB75-F4D3-4332-BD95-80349CAA76E6}|Launcher_2016\\MapleCustom_Launcher.csproj|C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\launcher_2016\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97A9BB75-F4D3-4332-BD95-80349CAA76E6}|Launcher_2016\\MapleCustom_Launcher.csproj|solutionrelative:launcher_2016\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\Launcher_2016\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Launcher_2016\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\Launcher_2016\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Launcher_2016\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:28:12.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\Launcher_2016\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Launcher_2016\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\informatica\\Desktop\\MapleStory Docs\\Launcher\\Launcher_2016\\Launcher_2016\\MainWindow.xaml",
+              "RelativeToolTip": "Launcher_2016\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T11:22:21.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
