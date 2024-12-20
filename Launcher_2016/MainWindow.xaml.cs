@@ -11,6 +11,8 @@ using System.Runtime.InteropServices;
 using System.Security.Principal;
 using System.Security.Cryptography;
 using System.Xml;
+using System.Windows.Media.Imaging;
+using System.Windows.Media;
 
 namespace Launcher_2016
 {
@@ -26,13 +28,15 @@ namespace Launcher_2016
         public Uri website_url = new Uri("http://google.com/");
         public Uri discord_url = new Uri("http://google.com/");
         public string[] updateFiles;
+        public int createBackup = 0; // 0 = false / 1 = true
+        public bool force_admin = false;
 
         private bool checkExe = false; 
         public Boolean updateInProgress = false;
 
         public bool iniOutput = true; 
 
-        private static string _xmlURL = "http://127.0.0.1/update/downloads.xml";
+        private static string _xmlURL = "http://lauche.maplecustom.com.br:8085/update/downloads.xml";
         public static string xmlURL { get { return _xmlURL; } set { _xmlURL = value; } }
 
         public List<string> downloadLinks_;
@@ -49,7 +53,7 @@ namespace Launcher_2016
         public MainWindow(OverlayStyle style) {
             WindowsIdentity current = WindowsIdentity.GetCurrent();
             WindowsPrincipal windowsPrincipal = new WindowsPrincipal(current);
-            if (!windowsPrincipal.IsInRole(WindowsBuiltInRole.Administrator))
+            if (!windowsPrincipal.IsInRole(WindowsBuiltInRole.Administrator) && force_admin)
             {
                 MessageBox.Show("Please run as Administrator!", "Warning");
                 Close();
@@ -129,6 +133,12 @@ namespace Launcher_2016
                             break;
                         case "server_name":
                             server_name = value;
+                            break;
+                        case "create_backup":
+                             if (int.TryParse(value, out int parsedBkp))
+                             {
+                                createBackup = parsedBkp;
+                             }
                             break;
                     }
                 }
@@ -217,15 +227,15 @@ namespace Launcher_2016
             label2.Content = downloadLinks_[0].Split('*')[0];
 
             string fileName = downloadLinks_[0].Split('*')[0];
-            string fileUrl = downloadLinks_[0].Split('*')[2]; 
+            string fileUrl = downloadLinks_[0].Split('*')[2];
 
-            Console.WriteLine("Download URL: " + fileUrl); 
+            Console.WriteLine("Download URL: " + fileUrl);
 
             if (File.Exists(System.IO.Path.Combine(currentDirectory, fileName)))
             {
-                if (fileName.Contains(".wz"))
+                if (fileName.Contains(".wz") && createBackup == 1)
                 {
-                    Boolean complete = false;
+                    bool complete = false;
                     int i = 1;
 
                     while (!complete)
@@ -241,7 +251,7 @@ namespace Launcher_2016
                             File.Move(System.IO.Path.Combine(currentDirectory, fileName), System.IO.Path.Combine(currentDirectory, backupFileName));
                         }
                     }
-                }
+                        }
                 else
                 {
                     File.Delete(System.IO.Path.Combine(currentDirectory, fileName));
@@ -255,14 +265,14 @@ namespace Launcher_2016
 
             try
             {
-                Uri downloadUri = new Uri(fileUrl); 
+                Uri downloadUri = new Uri(fileUrl);
                 client.DownloadFileAsync(downloadUri, System.IO.Path.Combine(currentDirectory, fileName));
             }
             catch (UriFormatException ex)
             {
                 MessageBox.Show("URL error: " + ex.Message, "Error downloading file");
             }
-        }
+        }   
 
         void client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
@@ -275,6 +285,12 @@ namespace Launcher_2016
             {
                 label2.Content = "Done, we can now start!";
                 updateInProgress = false;
+                button1.IsEnabled = true;
+
+                ImageBrush imageBrush = new ImageBrush();
+                imageBrush.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Imagens/play.png"));
+                button1.Background = imageBrush;
+
                 label4.Content = "0";
             }
             else
@@ -282,7 +298,6 @@ namespace Launcher_2016
                 pbStatus.Value = 0;
                 label2.Content = downloadLinks_[0].Split('*')[0];
 
-                // Verifique se o arquivo existe antes de deletar
                 if (File.Exists(System.IO.Path.Combine(currentDirectory, downloadLinks_[0].Split('*')[0])))
                 {
                     File.Delete(System.IO.Path.Combine(currentDirectory, downloadLinks_[0].Split('*')[0]));
@@ -347,7 +362,30 @@ namespace Launcher_2016
             List<string> downloadLinks = checkForUpdates();
             if (downloadLinks == null)
             {
-                MessageBox.Show("Unable to get update list!\n\rDownload the new launcher directly from the website\r\n", "Warning");
+                label2.Content = "Please, update launcher";
+                var result = MessageBox.Show(
+                    "Unable to get update list!\n\rDownload the new launcher directly from the website", 
+                    "Warning", 
+                    MessageBoxButton.OKCancel, 
+                    MessageBoxImage.Warning
+                );
+
+                if (result == MessageBoxResult.OK)
+                {
+                    try
+                    {
+                        System.Diagnostics.Process.Start(new ProcessStartInfo
+                        {
+                            FileName = website_url.ToString(), 
+                            UseShellExecute = true 
+                        });
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Failed to open browser: " + ex.Message, "Error");
+                    }
+                }
+
                 return;
             }
 
@@ -409,6 +447,12 @@ namespace Launcher_2016
             {
                 Download_Load();
                 updateInProgress = true;  
+                button1.IsEnabled = false;
+
+                ImageBrush imageBrush = new ImageBrush();
+                imageBrush.ImageSource = new BitmapImage(new Uri("pack://application:,,,/Imagens/play-off.png"));
+
+                button1.Background = imageBrush;
             }
             else
             {
@@ -418,6 +462,19 @@ namespace Launcher_2016
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (updateInProgress)
+            {
+                MessageBoxResult result = MessageBox.Show(
+                    "An update is in progress. Are you sure you want to close the program?",
+                    "Confirmation",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning
+                );
+
+                if (result == MessageBoxResult.No) return;
+                
+            }
+
             Application.Current.Shutdown();
         }
 
