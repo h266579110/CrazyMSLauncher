@@ -36,7 +36,7 @@ namespace Launcher_2016
 
         public bool iniOutput = true; 
 
-        private static string _xmlURL = "http://lauche.maplecustom.com.br:8085/update/downloads.xml";
+        private static string _xmlURL = "http://127.0.0.1/update/downloads.xml";
         public static string xmlURL { get { return _xmlURL; } set { _xmlURL = value; } }
 
         public List<string> downloadLinks_;
