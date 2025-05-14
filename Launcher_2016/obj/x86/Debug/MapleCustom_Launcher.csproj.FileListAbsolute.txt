@@ -1,0 +1,15 @@
+D:\VSProject\Launcher_2016\Launcher_2016\bin\Debug\CustomLauncher.exe.config
+D:\VSProject\Launcher_2016\Launcher_2016\bin\Debug\CustomLauncher.exe
+D:\VSProject\Launcher_2016\Launcher_2016\bin\Debug\CustomLauncher.pdb
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\MapleCustom_Launcher.csproj.AssemblyReference.cache
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\MainWindow.baml
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\App.baml
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\MainWindow.g.cs
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\App.g.cs
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\CustomLauncher_MarkupCompile.cache
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\CustomLauncher.g.resources
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\CustomLauncher.Properties.Resources.resources
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\MapleCustom_Launcher.csproj.GenerateResource.cache
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\MapleCustom_Launcher.csproj.CoreCompileInputs.cache
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\CustomLauncher.exe
+D:\VSProject\Launcher_2016\Launcher_2016\obj\x86\Debug\CustomLauncher.pdb
